@@ -2,7 +2,7 @@
 :root {
     --primary-color: #28374c;
     --off-blue: #53f5e2;
-    --light-grey: #bbf7d0;
+    --light-grey: #83f4e1;
 }
 body{
     font-family: "Roboto" ,sans-serif;
@@ -68,11 +68,24 @@ body{
 }
 /*Section*/
 .grey{
-    background-color: var(--off-blue);
+    background-color: var(--light-grey);
 }
 .section{
     padding: 2rem;
     margin: 2rem 0;
     border-radius: 1rem;
     text-align: center;
+}
+.link{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    max-width: 140px;
+    padding: 0.6rem;
+    color: var(--off-blue);
+    margin: 1rem auto;
+    border-radius: 2rem;
 }
