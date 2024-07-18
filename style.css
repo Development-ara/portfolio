@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
     --primary-color: #28374c;
     --off-blue: #53f5e2;
     --light-grey: #bbf7d0;
 }
-
+body{
+    font-family: "Roboto" ,sans-serif;
+}
 .navigation {
     background-color: var(--primary-color);
     color: var(--off-blue);
@@ -62,4 +65,14 @@
 
 .hero .hero-heading .heading-inverted {
     color: var(--off-blue);
+}
+/*Section*/
+.grey{
+    background-color: var(--off-blue);
+}
+.section{
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
 }
